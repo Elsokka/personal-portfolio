@@ -79,7 +79,7 @@ header{
     background-color: #1d1d42;
     border: 0px solid #1d1d42;
     display: grid;
-    grid-template-columns: minmax(50px, 300px) minmax(50px, 300px); /*Cuantas columnas va tener y el ancho las grillas*/
+    grid-template-columns: repeat(2, 1fr); /*Cuantas columnas va tener y el ancho las grillas*/ 
     grid-template-rows:  auto; /*Cambia el ancho de la fila*/
     grid-auto-flow: column; /* nos ayuda a saber como se esta llenando nuestra grilla*/
     column-gap: 0; /*Tamaño de la brcha que queremos tener puede ser colum gap o rowgap*/
